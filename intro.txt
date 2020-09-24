@@ -1,0 +1,11 @@
+So, you read through the job description and you cloned the GitHub repository. 
+
+Good for you. 
+
+You are already more ambitious than most. 
+
+Each of the other files in this repo is a test.
+
+The database tests expect that you will be able to open and understand the test database folder, which is a simple csv file structure.
+
+Please read each test and complete it. If you have any questions please let me know.

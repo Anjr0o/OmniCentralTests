@@ -1,0 +1,15 @@
+Imagine a person is using a typical web calendar application using these 4 technologies; MySql, Angular, Node, GraphQl.
+
+Now imagine the person fills in a new event in the calendar app and presses save to create the event.
+
+List the order in which those 4 technologies will be engaged at the moment the user clicks save.
+
+1. Angular
+2. GraphQl
+3. Node
+4. MySQL
+
+Feel free to write any additional thoughts or caveats here:
+
+GraphQl sends query to server.
+Node then recieves and parses the query and decides what we want to do with it, likely sending a query to our DB.
