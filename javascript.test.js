@@ -9,7 +9,7 @@
 
 // Stokes - There are several ways to go about this.  My method of choice is to convert the hour and minute hands to degrees, then calculate the angle accordingly.
 function calculateClockAngle(hours, minutes) {
-  let minuteAngle = (minutes / 60) * 360;
+  let minuteAngle = minutes * 6; // Stokes - Could be written as (minutes / 60) * 360 but it's been simplified to minutes * 6
   let hourAngle = (hours / 12) * 360 + minutes / 2; // Stokes - That last part could be written (minutes / 60) * 30 but it's been simplified to minutes / 2.
   let angle = Math.abs(hourAngle - minuteAngle);
   angle = angle > 180 ? Math.abs(angle - 360) : angle;
